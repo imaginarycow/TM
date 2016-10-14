@@ -1,0 +1,52 @@
+* {
+  margin: 0 0;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+.topHud {
+  background-color: black;
+  width: 100%;
+  padding: 0px;
+}
+.topHud p {
+  color: red;
+}
+.centerFrame {
+  background-color: #919baa;
+  width: 100%;
+  min-height: 300px;
+  padding: 0px;
+}
+.bottomHud {
+  background-color: black;
+  width: 100%;
+  height: calc(/1);
+  margin: 0px;
+  color: red;
+}
+.boxes {
+  background-color: red;
+  margin: 2px;
+  display: inline-block;
+  position: absolute;
+}
+#box1 {
+  left: 5px;
+}
+#box2 {
+  top: 44%;
+  left: 5px;
+}
+#box3 {
+  left: 30%;
+  top: 12%;
+}
+#box4 {
+  left: 84%;
+}
+#box5 {
+  left: 84%;
+  top: 44%;
+}
